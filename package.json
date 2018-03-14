@@ -1,7 +1,7 @@
 {
-  "name": "football-fixture-scrape",
+  "name": "soccer-scrape",
   "version": "1.0.0",
-  "description": "Scrape todays football fixtures from Bet365",
+  "description": "Scrape football data from Bet365",
   "main": "index.js",
   "scripts": {
     "dev": "backpack",
@@ -11,6 +11,7 @@
   "author": "Ollie Tribe <tribe@myself.com>",
   "license": "MIT",
   "dependencies": {
-    "backpack-core": "^0.7.0"
+    "backpack-core": "^0.7.0",
+    "puppeteer": "^1.1.1"
   }
 }
