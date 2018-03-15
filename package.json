@@ -1,17 +1,27 @@
 {
   "name": "soccer-scrape",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Scrape football data from Bet365",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "dev": "backpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["scraper", "crawler", "football", "soccer", "bet365", "betting", "puppeteer", "es6", "javascript"],
   "author": "Ollie Tribe <tribe@myself.com>",
   "license": "MIT",
   "dependencies": {
-    "backpack-core": "^0.7.0",
     "puppeteer": "^1.1.1"
-  }
+  },
+  "devDependencies": {
+    "backpack-core": "^0.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o8e/soccer-fixture-scrape.git"
+  },
+  "bugs": {
+    "url": "https://github.com/o8e/soccer-fixture-scrape/issues"
+  },
+  "homepage": "https://github.com/o8e/soccer-fixture-scrape#readme"
 }

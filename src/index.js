@@ -34,7 +34,7 @@ export const getFixtures = async () => {
    */
   return await page.evaluate(() => {
     const divs = [...document.querySelectorAll('.ips-EventRow')]
-    return divs.map((div) => {
+    return divs.map(div => {
       return {
         scheduled: div.childNodes[4].textContent,
         teams: {
