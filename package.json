@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "backpack",
-    "test": "mocha --require babel-core/register --require babel-polyfill --no-timeouts"
+    "test": "mocha --require babel-core/register --require babel-polyfill --no-timeouts --exit"
   },
   "babel": {
     "presets": [
