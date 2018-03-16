@@ -49,6 +49,7 @@ npm run dev
 
 * 0.0.2
     * Update docs and publish to NPM (module code remains unchanged)
+    * Add testing with mocha/chai and configure travis
 * 0.0.1
     * Develop initial function to fetch fixtures
 
