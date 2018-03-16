@@ -1,5 +1,5 @@
 const { getFixtures } = require('../src')
-const expect = require('chai').expect
+const { expect, assert } = require('chai')
 
 describe('getFixtures', function () {
   before(function (done) {
@@ -8,6 +8,8 @@ describe('getFixtures', function () {
     getFixtures().then(res => {
       this.data = res
       done()
+    }).catch(err => {
+      assert.fail(0, 1, 'Failed to fetch fixtures. URL could be broken or website is down.')
     })
   })
 
