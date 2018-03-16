@@ -2,6 +2,7 @@
 > Scrape football data from Bet365
 
 [![npm version](https://badge.fury.io/js/soccer-scrape.svg)](https://badge.fury.io/js/soccer-scrape)
+[![build status](https://travis-ci.org/o8e/soccer-scrape.svg?branch=master)](https://travis-ci.org/o8e/soccer-scrape)
 
 A pretty rigid library to fetch todays __unplayed__ fixtures. It currently only supports three attributes, and comes from a defined source, Bet365, because they have the most extensive, whacky leagues available.
 
