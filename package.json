@@ -5,23 +5,43 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "backpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --require babel-core/register --require babel-polyfill --no-timeouts"
   },
-  "keywords": ["scraper", "crawler", "football", "soccer", "bet365", "betting", "puppeteer", "es6", "javascript"],
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "keywords": [
+    "scraper",
+    "crawler",
+    "football",
+    "soccer",
+    "bet365",
+    "betting",
+    "puppeteer",
+    "es6",
+    "javascript"
+  ],
   "author": "Ollie Tribe <tribe@myself.com>",
   "license": "MIT",
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-runtime": "^6.26.0",
     "puppeteer": "^1.1.1"
   },
   "devDependencies": {
-    "backpack-core": "^0.7.0"
+    "babel-preset-env": "^1.6.1",
+    "backpack-core": "^0.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.4"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/o8e/soccer-fixture-scrape.git"
+    "url": "git+https://github.com/o8e/soccer-scrape.git"
   },
   "bugs": {
-    "url": "https://github.com/o8e/soccer-fixture-scrape/issues"
+    "url": "https://github.com/o8e/soccer-scrape/issues"
   },
-  "homepage": "https://github.com/o8e/soccer-fixture-scrape#readme"
+  "homepage": "https://github.com/o8e/soccer-scrape#readme"
 }
