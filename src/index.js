@@ -33,7 +33,7 @@ export const getFixtures = async () => {
    * into it's own object and return it
    */
   return await page.evaluate(() => {
-    const divs = [...document.querySelectorAll('.ips-EventRow')]
+    const divs = Array.prototype.slice.call(document.querySelectorAll('.ips-EventRow'))
     return divs.map(div => {
       return {
         scheduled: div.childNodes[4].textContent,
