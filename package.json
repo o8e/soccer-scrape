@@ -1,6 +1,6 @@
 {
   "name": "soccer-scrape",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Scrape football data from Bet365",
   "main": "src/index.js",
   "scripts": {
